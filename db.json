@@ -1,0 +1,470 @@
+{
+    "dailyDiscounts": [{
+            "id": 1,
+            "title": "شارژر فندکی 49 واتی راوپاور",
+            "model": "RavPower Rp-VC030",
+            "oldPrice": "۸۴۰٫۰۰۰",
+            "newPrice": "۵۸۵٫۰۰۰",
+            "discount": "۲۰۰٫۰۰۰",
+            "image": "src/assets/daily-discount/3.jpg"
+        },
+        {
+            "id": 2,
+            "title": "شارژر دیواری 25 واتی راوپاور",
+            "model": "RavPower Rp-PC156",
+            "oldPrice": "۸۴۰٫۰۰۰",
+            "newPrice": "۷۹۰٫۰۰۰",
+            "discount": "۱۰۰٫۰۰۰",
+            "image": "src/assets/daily-discount/2.jpg"
+        },
+        {
+            "id": 3,
+            "title": "پاوربانک مک سیف مک دودو 5 هزار میلی آمپر",
+            "model": "Mcdodo 7050",
+            "oldPrice": "۱٫۳۴۰٫۰۰۰",
+            "newPrice": "۱٫۲۹۰٫۰۰۰",
+            "discount": "۱۰۰٫۰۰۰",
+            "image": "src/assets/daily-discount/1.jpg"
+        },
+        {
+            "id": 4,
+            "title": "هندزفری بلوتوثی دورگردنی راوپاور",
+            "model": "Bh1003",
+            "oldPrice": "۱٫۷۹۰٫۰۰۰",
+            "newPrice": "۱٫۳۹۸٫۰۰۰",
+            "discount": "۵۰۰٫۰۰۰",
+            "image": "src/assets/daily-discount/4.jpg"
+        },
+        {
+            "id": 5,
+            "title": "شارژر دیواری 30 واتی آکی",
+            "model": "Aukey Pa-B1L",
+            "oldPrice": "۹۳۰٫۰۰۰",
+            "newPrice": "۷۲۹٫۰۰۰",
+            "discount": "۲۰۰٫۰۰۰",
+            "image": "src/assets/daily-discount/5.jpg"
+        }
+    ],
+
+    "products": {
+        "ri": [{
+                "id": 1,
+                "name": "شارژر دیواری 30 واتی آکی",
+                "price": 885000,
+                "oldPrice": 1200000,
+                "discount": "300,000 تومان تخفیف",
+                "img": "src/assets/daily-discount/3.jpg"
+            },
+            {
+                "id": 2,
+                "name": "هندزفری بلوتوثی دورگردنی راپاور",
+                "price": 1398000,
+                "oldPrice": 1790000,
+                "discount": "500,000 تومان تخفیف",
+                "img": "src/assets/daily-discount/2.jpg"
+            }
+        ],
+        "le": [{
+                "id": 3,
+                "name": "شارژر فندکی 49 واتی راپاور",
+                "price": 727000,
+                "oldPrice": 930000,
+                "discount": "203,000 تومان تخفیف",
+                "img": "src/assets/daily-discount/1.jpg"
+            },
+            {
+                "id": 4,
+                "name": "شارژر دیواری راوپاور 25 واتی",
+                "price": 727000,
+                "oldPrice": 930000,
+                "discount": "100,000 تومان تخفیف",
+                "img": "src/assets/daily-discount/4.jpg"
+            },
+            {
+                "id": 5,
+                "name": "پاوربانک مگ سیف مک 5 هزار میلی آمپر",
+                "price": 727000,
+                "oldPrice": 930000,
+                "discount": "101,000 تومان تخفیف",
+                "img": "src/assets/daily-discount/5.jpg"
+            }
+        ]
+    },
+    "banners": [{
+            "id": 1,
+            "image": "src/assets/slider/1.jpg",
+            "alt": "مشاهده محصولات"
+        },
+        {
+            "id": 2,
+            "image": "src/assets/slider/2.jpg",
+            "alt": "بزن بریم"
+        },
+        {
+            "id": 3,
+            "image": "src/assets/slider/3.png",
+            "alt": "از ما بخر!"
+        },
+        {
+            "id": 4,
+            "image": "src/assets/slider/4.png",
+            "alt": "نهایت کیفیت"
+        },
+        {
+            "id": 5,
+            "image": "src/assets/slider/5.png",
+            "alt": "قیمتا همیشه همینقدر مناسبه"
+        }
+    ],
+
+    "selected-categories": [{
+            "id": 1,
+            "image": "src/assets/selected-categories/1.png",
+            "alt": "مشاهده محصولات"
+        },
+        {
+            "id": 2,
+            "image": "src/assets/selected-categories/2.png",
+            "alt": "بزن بریم"
+        },
+        {
+            "id": 3,
+            "image": "src/assets/selected-categories/3.png",
+            "alt": "از ما بخر!"
+        },
+        {
+            "id": 4,
+            "image": "src/assets/selected-categories/4.png",
+            "alt": "نهایت کیفیت"
+        },
+        {
+            "id": 5,
+            "image": "src/assets/selected-categories/5.png",
+            "alt": "قیمتا همیشه همینقدر مناسبه"
+        },
+        {
+            "id": 6,
+            "image": "src/assets/selected-categories/6.png",
+            "alt": "قیمتا همیشه همینقدر مناسبه"
+        },
+        {
+            "id": 7,
+            "image": "src/assets/selected-categories/7.png",
+            "alt": "قیمتا همیشه همینقدر مناسبه"
+        },
+        {
+            "id": 8,
+            "image": "src/assets/selected-categories/8.png",
+            "alt": "قیمتا همیشه همینقدر مناسبه"
+        }
+    ],
+
+    "available": [{
+            "id": 1,
+            "title": "کابل شارژ دوسر تایپ سی",
+            "category": "دو سر تایپ سی",
+            "image": "src/assets/available/1.jpg",
+            "originalPrice": "700,000",
+            "discountedPrice": "660,000",
+            "discount": true
+        },
+        {
+            "id": 2,
+            "title": "کابل شارژ 4 کاره مک",
+            "category": "سه کاره",
+            "image": "src/assets/available/2.jpg",
+            "originalPrice": "650,000",
+            "discountedPrice": "597,000",
+            "discount": true
+        },
+        {
+            "id": 3,
+            "title": "کابل شارژ 4 کاره مک",
+            "category": "سه کاره",
+            "image": "src/assets/available/3.jpg",
+            "originalPrice": "650,000",
+            "discountedPrice": "597,000",
+            "discount": false
+        },
+        {
+            "id": 4,
+            "title": "کابل شارژ 4 کاره مک",
+            "category": "سه کاره",
+            "image": "src/assets/available/4.jpg",
+            "originalPrice": "650,000",
+            "discountedPrice": "597,000",
+            "discount": true
+        },
+        {
+            "id": 5,
+            "title": "کابل شارژ 4 کاره مک",
+            "category": "سه کاره",
+            "image": "src/assets/available/5.jpg",
+            "originalPrice": "650,000",
+            "discountedPrice": "597,000",
+            "discount": true
+        },
+        {
+            "id": 6,
+            "title": "کابل شارژ 4 کاره مک",
+            "category": "سه کاره",
+            "image": "src/assets/available/6.jpg",
+            "originalPrice": "650,000",
+            "discountedPrice": "597,000",
+            "discount": true
+        },
+        {
+            "id": 7,
+            "title": "کابل شارژ 4 کاره مک",
+            "category": "سه کاره",
+            "image": "src/assets/available/7.jpg",
+            "originalPrice": "650,000",
+            "discountedPrice": "597,000",
+            "discount": true
+        },
+        {
+            "id": 8,
+            "title": "کابل شارژ 4 کاره مک",
+            "category": "سه کاره",
+            "image": "src/assets/available/8.jpg",
+            "originalPrice": "650,000",
+            "discountedPrice": "597,000",
+            "discount": true
+        },
+        {
+            "id": 9,
+            "title": "کابل شارژ 4 کاره مک",
+            "category": "سه کاره",
+            "image": "src/assets/available/9.jpg",
+            "originalPrice": "650,000",
+            "discountedPrice": "597,000",
+            "discount": true
+        },
+        {
+            "id": 10,
+            "title": "پاوربانک 10000 بی‌سیم",
+            "category": "پاوربانک و جامپ استارتر",
+            "image": "src/assets/available/10.jpg",
+            "originalPrice": "2,200,000",
+            "discountedPrice": "1,947,000",
+            "discount": true
+        }
+    ],
+
+    "benefits": [{
+            "id": 1,
+            "title": "امکان خرید حضوری",
+            "description": "مشتری گرامی جهت خرید حضوری می‌توانید به آدرس مندرج در پایین سایت مراجعه نمایید.",
+            "icon": "src/assets/why-dastresi/4.png"
+        },
+        {
+            "id": 2,
+            "title": "ارسال سریع",
+            "description": "ارسال از طریق تیپاکس، پست پیشتاز و پیک موتوری (ویژه تهران) صورت می‌گیرد.",
+            "icon": "src/assets/why-dastresi/3.png"
+        },
+        {
+            "id": 3,
+            "title": "قیمت مناسب با بالاترین کیفیت",
+            "description": "گروه دسترسی در تلاش است که کالای با کیفیت را با مناسب‌ترین قیمت، به دست شما برساند.",
+            "icon": "src/assets/why-dastresi/2.png"
+        },
+        {
+            "id": 4,
+            "title": "مشاوره تخصصی برای خرید محصول",
+            "description": "برای خرید هر محصول با ارتباط باشید تا بهترین انتخاب را انجام دهید.",
+            "icon": "src/assets/why-dastresi/1.png"
+        }
+    ],
+
+    "bestSelling": [{
+            "id": 1,
+            "title": "کابل شارژ دوسر تایپ سی",
+            "category": "دو سر تایپ سی",
+            "image": "src/assets/best-selling-products/1.jpg",
+            "originalPrice": "700,000",
+            "discountedPrice": "660,000",
+            "discount": true
+        },
+        {
+            "id": 2,
+            "title": "کابل شارژ 4 کاره مک",
+            "category": "سه کاره",
+            "image": "src/assets/best-selling-products/2.jpg",
+            "originalPrice": "650,000",
+            "discountedPrice": "597,000",
+            "discount": true
+        },
+        {
+            "id": 3,
+            "title": "کابل شارژ 4 کاره مک",
+            "category": "سه کاره",
+            "image": "src/assets/best-selling-products/3.jpg",
+            "originalPrice": "650,000",
+            "discountedPrice": "597,000",
+            "discount": false
+        },
+        {
+            "id": 4,
+            "title": "کابل شارژ 4 کاره مک",
+            "category": "سه کاره",
+            "image": "src/assets/best-selling-products/4.jpg",
+            "originalPrice": "650,000",
+            "discountedPrice": "597,000",
+            "discount": true
+        },
+        {
+            "id": 5,
+            "title": "کابل شارژ 4 کاره مک",
+            "category": "سه کاره",
+            "image": "src/assets/best-selling-products/5.jpg",
+            "originalPrice": "650,000",
+            "discountedPrice": "597,000",
+            "discount": true
+        },
+        {
+            "id": 6,
+            "title": "کابل شارژ 4 کاره مک",
+            "category": "سه کاره",
+            "image": "src/assets/best-selling-products/6.jpg",
+            "originalPrice": "650,000",
+            "discountedPrice": "597,000",
+            "discount": true
+        },
+        {
+            "id": 7,
+            "title": "کابل شارژ دو سر تایپ سی",
+            "category": "سه کاره",
+            "image": "src/assets/best-selling-products/7.jpg",
+            "originalPrice": "650,000",
+            "discountedPrice": "597,000",
+            "discount": true
+        },
+        {
+            "id": 8,
+            "title": "کابل شارژ 4 کاره مک",
+            "category": "سه کاره",
+            "image": "src/assets/best-selling-products/8.jpg",
+            "originalPrice": "650,000",
+            "discountedPrice": "597,000",
+            "discount": true
+        },
+        {
+            "id": 9,
+            "title": "کابل شارژ 4 کاره مک",
+            "category": "سه کاره",
+            "image": "src/assets/best-selling-products/9.jpg",
+            "originalPrice": "650,000",
+            "discountedPrice": "597,000",
+            "discount": true
+        },
+        {
+            "id": 10,
+            "title": "پاوربانک 10000 بی‌سیم",
+            "category": "پاوربانک و جامپ استارتر",
+            "image": "src/assets/best-selling-products/10.jpg",
+            "originalPrice": "2,200,000",
+            "discountedPrice": "1,947,000",
+            "discount": true
+        }
+    ],
+
+    "popular-brands": [{
+            "id": 1,
+            "image": "src/assets/popular-brands/1.jpg",
+            "alt": "مشاهده محصولات"
+        },
+        {
+            "id": 2,
+            "image": "src/assets/popular-brands/2.jpg",
+            "alt": "بزن بریم"
+        },
+        {
+            "id": 3,
+            "image": "src/assets/popular-brands/3.jpg",
+            "alt": "از ما بخر!"
+        },
+        {
+            "id": 4,
+            "image": "src/assets/popular-brands/4.jpg",
+            "alt": "نهایت کیفیت"
+        },
+        {
+            "id": 5,
+            "image": "src/assets/popular-brands/5.jpg",
+            "alt": "قیمتا همیشه همینقدر مناسبه"
+        },
+        {
+            "id": 6,
+            "image": "src/assets/popular-brands/6.jpg",
+            "alt": "قیمتا همیشه همینقدر مناسبه"
+        },
+        {
+            "id": 7,
+            "image": "src/assets/popular-brands/7.jpg",
+            "alt": "قیمتا همیشه همینقدر مناسبه"
+        }
+    ],
+
+    "articles": [{
+            "id": 1,
+            "image": "src/assets/latest-articles/1.jpg",
+            "title": "چرا باید از ماساژور چشم استفاده کنید؟"
+        },
+        {
+            "id": 2,
+            "image": "src/assets/latest-articles/2.jpg",
+            "title": "راهنمای تشخیص شارژر اصلی آیفون و بهترین جایگزین‌ها"
+        },
+        {
+            "id": 3,
+            "image": "src/assets/latest-articles/3.jpg",
+            "title": "بهترین پاوربانک پاورولوژی + ۸ مدل از باکیفیت‌ترین‌ها"
+        },
+        {
+            "id": 4,
+            "image": "src/assets/latest-articles/4.jpg",
+            "title": "بهترین ساعت های هوشمند صفحه گرد: قیمت و مدل‌های برتر"
+        },
+
+        {
+            "id": 5,
+            "image": "src/assets/latest-articles/5.jpg",
+            "title": "خرید بهترین هندزفری سیمی تا 500 تومن"
+        },
+        {
+            "id": 6,
+            "image": "src/assets/latest-articles/6.jpg",
+            "title": "معرفی 5 مدل از بهترین میکروفون بویا"
+        },
+        {
+            "id": 7,
+            "image": "src/assets/latest-articles/7.jpg",
+            "title": "راهنمای خرید بهترین میکروفون زیر 1 میلیون"
+        },
+        {
+            "id": 8,
+            "image": "src/assets/latest-articles/8.jpg",
+            "title": "بهترین هارد اکسترنال SSD : سرعت و امنیت در کنار هم!"
+        }
+    ],
+
+    "footer": {
+        "storeTitle": "فروشگاه اینترنتی دسترسی",
+        "storeDescription": "فروشگاه دسترسی فعالیت خود را از سال ۱۳۸۹ به صورت فروش فیزیکی کالا در حوزه لوازم جانبی کامپیوتر و موبایل در تهران شروع کرد و از طریق پیج اینستاگرام وارد فروش آنلاین شد و به خاطر ارائه کالای اصل و مشاوره های دقیق در بازه کوتاهی توانست اعتماد بسیاری از مشتریانش را جلب کند و سرانجام در سال ۱۳۹۹ فروش از طریق سایت را هم به فعالیت خود اضافه کرد تا اینکه بتواند با بررسی دقیق کالاها انتخاب صحیح شما را به ارمغان اورد . و امروز فعالیت خود را در زمینه آدا‌پتور موبایل ، کابل شارژر ، ساعت هوشمند و … ادامه میدهد.",
+        "quickLinks": [
+            { "id": 1, "text": "باشگاه مشتریان", "url": "#" },
+            { "id": 2, "text": "سوالات متداول", "url": "#" },
+            { "id": 3, "text": "بلاگ", "url": "#" },
+            { "id": 4, "text": "شرایط و قوانین", "url": "#" },
+            { "id": 5, "text": "ارتباط با ما", "url": "#" },
+            { "id": 6, "text": "درباره ما", "url": "#" }
+        ],
+        "contactInfo": {
+            "address": "تهران - میدان امام خمینی - پاساژ لباف - همکف",
+            "phone": "۳۳۹۰۲۶۴۶-۰۲۱",
+            "email": "info@dastresi.com",
+            "image": "src/assets/icon/logo.png"
+        }
+    }
+}

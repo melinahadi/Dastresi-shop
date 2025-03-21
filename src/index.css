@@ -1,0 +1,96 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+body {
+    @apply font-shabnam;
+}
+
+
+/* استایل دکمه‌های نویگیشن سفارشی */
+
+.custom-swiper-button-prev,
+.custom-swiper-button-next {
+    position: absolute;
+    top: 50%;
+    width: 40px;
+    height: 40px;
+    background-color: rgba(255, 255, 255, 0.9);
+    border-radius: 50%;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+    z-index: 10;
+}
+
+.custom-swiper-button-prev {
+    left: -20px;
+}
+
+.custom-swiper-button-next {
+    right: -20px;
+}
+
+.custom-swiper-button-prev::after,
+.custom-swiper-button-next::after {
+    font-size: 20px;
+    color: #333;
+}
+
+.custom-swiper-button-prev:hover,
+.custom-swiper-button-next:hover {
+    background-color: rgba(255, 255, 255, 1);
+    transform: scale(1.1);
+}
+
+
+/* استایل مخصوص موبایل */
+
+@media (max-width: 768px) {
+    .custom-swiper-button-prev,
+    .custom-swiper-button-next {
+        width: 30px;
+        height: 30px;
+    }
+    .custom-swiper-button-prev {
+        left: -10px;
+    }
+    .custom-swiper-button-next {
+        right: -10px;
+    }
+}
+
+
+/* تغییر رنگ pagination به مشکی و فاصله‌ی بیشتر */
+
+.custom-pagination {
+    position: relative;
+    bottom: -20px;
+    /* فاصله بیشتر از تصاویر */
+    display: flex;
+    justify-content: center;
+}
+
+.custom-pagination .swiper-pagination-bullet {
+    width: 8px;
+    height: 8px;
+    background-color: black !important;
+    /* تغییر رنگ به مشکی */
+    opacity: 0.5;
+    transition: opacity 0.3s;
+}
+
+.custom-pagination .swiper-pagination-bullet-active {
+    opacity: 1;
+}
+
+footer {
+    position: relative;
+    /* ✅ اطمینان از اینکه فوتر شناور نباشد */
+    bottom: 0;
+    width: 100%;
+    background-color: #f8f8f8;
+    /* یا هر رنگی که نیاز داری */
+}
