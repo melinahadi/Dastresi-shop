@@ -39,8 +39,8 @@ const PopularBrands = () => {
           className="mySwiper"
           dir="rtl"
           breakpoints={{
-            320: { slidesPerView: 2, spaceBetween: 5 },
-            640: { slidesPerView: 3, spaceBetween: 8 },
+            320: { slidesPerView: 4, spaceBetween: 5 },
+            640: { slidesPerView: 5, spaceBetween: 8 },
             1024: { slidesPerView: 6, spaceBetween: 9 },
           }}
         >

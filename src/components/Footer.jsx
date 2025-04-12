@@ -27,50 +27,60 @@ const Footer = () => {
   return (
     <footer className="bg-gray-200 pt-10 pb-2 mt-10">
       <div className="container mx-auto px-6">
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-8 items-start">
           {data ? (
             <>
-              <div>
+              {/* ستون ۱: عنوان و توضیحات فروشگاه */}
+              <div className="min-w-0">
                 <h3 className="text-lg font-bold mb-4">{data.storeTitle}</h3>
                 <p className="text-gray-600 leading-8">
                   {data.storeDescription}
                 </p>
               </div>
 
-              <FooterLinks title="دسترسی سریع" links={data.quickLinks || []} />
+              {/* ستون ۲: دسترسی سریع */}
+              <div className="min-w-0">
+                <FooterLinks
+                  title="دسترسی سریع"
+                  links={data.quickLinks || []}
+                />
+              </div>
 
-              <div>
+              {/* ستون ۳: اطلاعات تماس */}
+              <div className="min-w-0">
                 <h3 className="text-lg font-bold mb-4">تماس با ما</h3>
                 {data.contactInfo ? (
                   <>
                     <a
-                      href="https://www.google.com/maps?rlz=1C1GCEA_enIR1115IR1115&gs_lcrp=EgZjaHJvbWUqCggAEAAY4wIYgAQyCggAEAAY4wIYgAQyDQgBEC4YrwEYxwEYgAQyBwgCEAAYgAQyCAgDEAAYFhgeMggIBBAAGBYYHjIICAUQABgWGB4yCggGEAAYChgWGB4yCAgHEAAYFhgeMggICBAAGBYYHjIICAkQABgWGB7SAQg1MzE0ajBqN6gCALACAA&um=1&ie=UTF-8&fb=1&gl=se&sa=X&geocode=KZehVe6NAY4_MVhjQIVj76w9&daddr=Tehran+Province,+Tehran,+District+12%D8%8C+%D9%BE%D8%B4%D8%AA+%D8%B4%D9%87%D8%B1%D8%AF%D8%A7%D8%B1%DB%8C%D8%8C+MCPC%2BPM5,+Iran"
-                      className="text-gray-600 "
+                      href="https://www.google.com/maps?...your-address..."
+                      className="text-gray-600 break-words"
                       target="_blank"
                     >
                       {data.contactInfo.address}
                     </a>
-                    <p className="text-gray-600 my-4">
+
+                    <p className="text-gray-600 my-4 break-words">
                       تلفن: {data.contactInfo.phone}
                     </p>
+
                     <a
                       href="mailto:info@dastresi.com"
-                      className="text-gray-600"
+                      className="text-gray-600 break-words"
                       target="_blank"
                     >
                       ایمیل: {data.contactInfo.email}
                     </a>
-                    <div className="flex justify-between">
+
+                    <div className="flex flex-wrap justify-between items-center gap-4 mt-4">
                       <img
                         src={data.contactInfo.image}
                         alt="logo"
-                        className="h-20 m-5"
+                        className="h-20 m-2 flex-shrink-0"
                       />
 
-                      {/* ✅ دکمه بازگشت به بالا */}
                       <button
-                        onClick={scrollToTop} // اتصال تابع اسکرول
-                        className="px-4 my-auto h-12 bg-gray-400 text-white rounded-lg hover:bg-gray-600 transition-all"
+                        onClick={scrollToTop}
+                        className="px-4 h-12 bg-gray-400 text-white rounded-lg hover:bg-gray-600 transition-all flex-shrink-0 whitespace-nowrap"
                       >
                         بازگشت به بالا ⬆️
                       </button>

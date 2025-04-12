@@ -23,15 +23,13 @@ const BannerSlider = () => {
   if (status === "failed") return <p>خطا: {error}</p>;
 
   return (
-    <div className="relative my-4">
+    <div className="relative container px-[3px] sm:px-0 mx-auto my-4">
       <Swiper
         modules={[Pagination, Autoplay]}
         autoplay={{ delay: 5000 }}
-        pagination={{ clickable: true ,
-          el:".banner-pagination"
-        }}
+        pagination={{ clickable: true, el: ".banner-pagination" }}
         slidesPerView={1} // ✅ فقط یک اسلاید نمایش داده شود
-        className="max-w-screen-lg mx-auto py-8 relative"
+        className="max-w-screen-lg mx-[5px] sm:mx-auto  py-8 mt-32  "
       >
         {banners.map((banner) => (
           <SwiperSlide key={banner.id} className="relative">

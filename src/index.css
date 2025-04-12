@@ -5,6 +5,12 @@ body {
     @apply font-shabnam;
 }
 
+html {
+    text-size-adjust: 100%;
+    /* برای جلوگیری از تغییر اندازه متن توسط مرورگر */
+    -webkit-text-size-adjust: 100%;
+}
+
 
 /* استایل دکمه‌های نویگیشن سفارشی */
 
@@ -51,6 +57,8 @@ body {
 @media (max-width: 768px) {
     .custom-swiper-button-prev,
     .custom-swiper-button-next {
+        display: none;
+        /* دکمه‌ها در موبایل پنهان می‌شوند */
         width: 30px;
         height: 30px;
     }
