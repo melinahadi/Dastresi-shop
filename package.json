@@ -10,7 +10,9 @@
         "preview": "vite preview",
         "start": "react-scripts start",
         "server": "json-server --watch db.json --port 5000",
-        "dev": "vite"
+        "dev": "vite",
+        "predeploy": "npm run build",
+        "deploy": "gh-pages -d dist"
     },
     "dependencies": {
         "@reduxjs/toolkit": "^2.6.1",
